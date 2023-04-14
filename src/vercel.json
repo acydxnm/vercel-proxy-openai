@@ -1,8 +1,6 @@
 {
-    "rewrites": [
-        {
-            "source": "/:match*",
-            "destination": "https://www.google.com/:match*"
-        }
+    "version": 2,
+    "routes": [
+      {"src": "/(.*)","dest": "https://nas.wangboweb.site:9201"}
     ]
 }
